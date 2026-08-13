@@ -1,21 +1,21 @@
 {
-  "version": "studio-v24-20260813",
+  "version": "studio-v25-20260813",
   "python_abi": "cp312-darwin-arm64",
   "requires_installer": false,
-  "notes_de": "Erste Freigabe.",
-  "notes_en": "First release.",
+  "notes_de": "Testlauf der Update-Funktion — inhaltlich unverändert gegenüber v24.",
+  "notes_en": "Test run of the update function — no content changes compared to v24.",
   "files": [
     {
       "name": "whisper_studio_gui.cpython-312-darwin.so",
       "url": "https://raw.githubusercontent.com/Yannik2000/WhisperSimpleForMac-Update-Repo/main/whisper_studio_gui.cpython-312-darwin.so",
-      "sha256": "bb598679193758f064d04e4716abedc5b50e59e3e64858a4acdcd2a208bc3e70",
-      "size": 4031368
+      "sha256": "986e7a211ab7db4789bc75e9d16b62fe076441e195b61a0f8cceddcf2ab27cb5",
+      "size": 4066240
     },
     {
       "name": "ws_pipeline.cpython-312-darwin.so",
       "url": "https://raw.githubusercontent.com/Yannik2000/WhisperSimpleForMac-Update-Repo/main/ws_pipeline.cpython-312-darwin.so",
-      "sha256": "f6d5f999705b86d58197837ef11d66e307f31521dcee4696b300a4d25eeb394e",
-      "size": 1175200
+      "sha256": "25b80f9f96d602204c5ff6dce74c19f58b0c66992ab2b96db300884b42f5f16c",
+      "size": 1193296
     },
     {
       "name": "WhisperStudio_mac.py",
