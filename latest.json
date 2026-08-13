@@ -1,15 +1,15 @@
 {
-  "version": "studio-v25-20260813",
+  "version": "studio-v26-20260813",
   "python_abi": "cp312-darwin-arm64",
   "requires_installer": false,
-  "notes_de": "Testlauf der Update-Funktion — inhaltlich unverändert gegenüber v24.",
-  "notes_en": "Test run of the update function — no content changes compared to v24.",
+  "notes_de": "Neustart nach dem Update funktioniert wieder; Update-Knopf jetzt auch in den einfachen Einstellungen.",
+  "notes_en": "Restart after an update works again; the update button is now in the simple settings too.",
   "files": [
     {
       "name": "whisper_studio_gui.cpython-312-darwin.so",
       "url": "https://raw.githubusercontent.com/Yannik2000/WhisperSimpleForMac-Update-Repo/main/whisper_studio_gui.cpython-312-darwin.so",
-      "sha256": "986e7a211ab7db4789bc75e9d16b62fe076441e195b61a0f8cceddcf2ab27cb5",
-      "size": 4066240
+      "sha256": "4d6859f103fdb1b36c96a914e5fd1c9699a387ef7815a07beb9f07b49d0025a2",
+      "size": 4101600
     },
     {
       "name": "ws_pipeline.cpython-312-darwin.so",
