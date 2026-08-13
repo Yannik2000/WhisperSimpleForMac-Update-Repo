@@ -1,0 +1,33 @@
+{
+  "version": "studio-v24-20260813",
+  "python_abi": "cp312-darwin-arm64",
+  "requires_installer": false,
+  "notes_de": "Erste Freigabe.",
+  "notes_en": "First release.",
+  "files": [
+    {
+      "name": "whisper_studio_gui.cpython-312-darwin.so",
+      "url": "https://raw.githubusercontent.com/Yannik2000/WhisperSimpleForMac-Update-Repo/main/whisper_studio_gui.cpython-312-darwin.so",
+      "sha256": "bb598679193758f064d04e4716abedc5b50e59e3e64858a4acdcd2a208bc3e70",
+      "size": 4031368
+    },
+    {
+      "name": "ws_pipeline.cpython-312-darwin.so",
+      "url": "https://raw.githubusercontent.com/Yannik2000/WhisperSimpleForMac-Update-Repo/main/ws_pipeline.cpython-312-darwin.so",
+      "sha256": "f6d5f999705b86d58197837ef11d66e307f31521dcee4696b300a4d25eeb394e",
+      "size": 1175200
+    },
+    {
+      "name": "WhisperStudio_mac.py",
+      "url": "https://raw.githubusercontent.com/Yannik2000/WhisperSimpleForMac-Update-Repo/main/WhisperStudio_mac.py",
+      "sha256": "7a2b6dc6056fa5e385a8ddd8ed5a37227989bab07ada7268ffe0caeeba879fb5",
+      "size": 1486
+    },
+    {
+      "name": "transcribe.py",
+      "url": "https://raw.githubusercontent.com/Yannik2000/WhisperSimpleForMac-Update-Repo/main/transcribe.py",
+      "sha256": "3fd207b821bf53140c5f3fb63b492d6a8b7c00c661cc629c169729fad8fc6459",
+      "size": 1112
+    }
+  ]
+}
