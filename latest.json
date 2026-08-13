@@ -1,15 +1,15 @@
 {
-  "version": "studio-v27-20260813",
+  "version": "studio-v28-20260813",
   "python_abi": "cp312-darwin-arm64",
   "requires_installer": false,
-  "notes_de": "ABSICHTLICH DEFEKT — Testlauf fuer die Ruecknahme eines fehlerhaften Updates.",
-  "notes_en": "DELIBERATELY BROKEN — test run for rolling back a faulty update.",
+  "notes_de": "Wieder eine funktionierende Fassung nach dem Rückfall-Test. Inhaltlich wie v26.",
+  "notes_en": "A working build again after the rollback test. Same content as v26.",
   "files": [
     {
       "name": "whisper_studio_gui.cpython-312-darwin.so",
       "url": "https://raw.githubusercontent.com/Yannik2000/WhisperSimpleForMac-Update-Repo/main/whisper_studio_gui.cpython-312-darwin.so",
-      "sha256": "afc47e4730c3f7d1c79948f3a1b4786e3741d247ad8ab02d73cf3faefe8b0baf",
-      "size": 3363312
+      "sha256": "70f97eda43cea226eb8a0176280077c109e7381eb131de00067263079e16316f",
+      "size": 4101600
     },
     {
       "name": "ws_pipeline.cpython-312-darwin.so",
