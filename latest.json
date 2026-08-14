@@ -1,20 +1,20 @@
 {
-  "version": "studio-v29-20260813",
+  "version": "studio-v30-20260813",
   "python_abi": "cp312-darwin-arm64",
   "requires_installer": false,
-  "notes_de": "Fehlgeschlagene Updates werden nicht mehr endlos erneut angeboten. Beim Laden sieht man jetzt den Fortschritt.",
-  "notes_en": "Failed updates are no longer offered again and again. Downloads now show their progress.",
+  "notes_de": "Erste Fassung, die sich selbst aktualisieren kann. Ausgeliefert wird jetzt kompiliert.",
+  "notes_en": "First build that can update itself. The app is now shipped compiled.",
   "files": [
     {
       "name": "whisper_studio_gui.cpython-312-darwin.so",
       "url": "https://raw.githubusercontent.com/Yannik2000/WhisperSimpleForMac-Update-Repo/main/whisper_studio_gui.cpython-312-darwin.so",
-      "sha256": "e602e88c33f33ec322b4238ebce3e2e5ff9068b206f0c2bb05f6fcec1ed60634",
+      "sha256": "509264d03d48ae6feb5606dfd8069e5b4449b599e9c57b7aa517fe5eda9839f6",
       "size": 4136528
     },
     {
       "name": "ws_pipeline.cpython-312-darwin.so",
       "url": "https://raw.githubusercontent.com/Yannik2000/WhisperSimpleForMac-Update-Repo/main/ws_pipeline.cpython-312-darwin.so",
-      "sha256": "25b80f9f96d602204c5ff6dce74c19f58b0c66992ab2b96db300884b42f5f16c",
+      "sha256": "9bf94b08ca2bd39e32e6e0ffe8817a3f7b6d8af41e97efb7499bef0dde1460c3",
       "size": 1193296
     },
     {
