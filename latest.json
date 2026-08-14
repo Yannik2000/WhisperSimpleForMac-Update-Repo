@@ -1,14 +1,14 @@
 {
-  "version": "studio-v31-20260814",
+  "version": "studio-v32-20260814",
   "python_abi": "cp312-darwin-arm64",
   "requires_installer": false,
-  "notes_de": "Anleitungen und Changelog auf den kompilierten Stand gebracht. Ein vorgemerktes Update wartet jetzt auch, solange Sprecher benannt werden.",
-  "notes_en": "Manuals and changelog now describe the compiled build. A queued update also waits while speakers are being named.",
+  "notes_de": "Ziehen und Fallenlassen von Dateien ins Fenster funktioniert wieder.",
+  "notes_en": "Dragging files onto the window works again.",
   "files": [
     {
       "name": "whisper_studio_gui.cpython-312-darwin.so",
       "url": "https://raw.githubusercontent.com/Yannik2000/WhisperSimpleForMac-Update-Repo/main/whisper_studio_gui.cpython-312-darwin.so",
-      "sha256": "268bab216c252caf7f3a8e94928641104987ec85ec4a418af940c81227a5cf3c",
+      "sha256": "61e7072c3c7e36f01df1743a35b4566e8f365b05b3c1692fde61cb5769c9b3d1",
       "size": 4136528
     },
     {
