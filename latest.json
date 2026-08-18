@@ -1,15 +1,15 @@
 {
-  "version": "studio-v36-20260818",
+  "version": "studio-v37-20260818",
   "python_abi": "cp312-darwin-arm64",
   "requires_installer": false,
-  "notes_de": "Behebt den Ausfall der Sprecherzuordnung: Die Satztrennung fuer das Wort-Alignment ist jetzt fest eingebaut und wird nicht mehr waehrend des Laufs aus dem Netz geladen. Ein fehlgeschlagenes Alignment wird nicht mehr sinnlos wiederholt (spart bis zu drei Minuten) und meldet sich jetzt als Fehler statt stillschweigend ein Transkript ohne Sprecher zu liefern. Ausserdem: bei Sprachwahl 'Automatisch' funktioniert das Alignment wieder, und die Statuszeile behauptet nicht mehr faelschlich einen CPU-Fallback.",
-  "notes_en": "Fixes the speaker assignment failure: the sentence splitting needed for word alignment is now built in and no longer downloaded mid-run. A failed alignment is no longer retried pointlessly (saves up to three minutes) and is now reported as an error instead of silently producing a transcript without speakers. Also: alignment works again with language set to 'Auto', and the status line no longer claims a CPU fallback that never happened.",
+  "notes_de": "Kein automatischer Downgrade mehr: Lag im Update-Verzeichnis eine AELTERE Fassung als die installierte, wurde sie bisher als Update angeboten und auch eingespielt. Die App vergleicht Versionen jetzt der Reihe nach und bietet nur echte Neuerungen an. Enthaelt ausserdem die Korrekturen aus v36 (Sprecherzuordnung, Wort-Alignment).",
+  "notes_en": "No more automatic downgrades: if the update directory held an OLDER version than the installed one, it was offered as an update and installed. The app now compares versions in order and only offers genuine upgrades. Also contains the v36 fixes (speaker assignment, word alignment).",
   "files": [
     {
       "name": "whisper_studio_gui.cpython-312-darwin.so",
       "url": "https://raw.githubusercontent.com/Yannik2000/WhisperSimpleForMac-Update-Repo/main/whisper_studio_gui.cpython-312-darwin.so",
-      "sha256": "2d3295b06d658d542542a620177558e4d8b2c2bc6dacfbf53e0ad54fe2083ff0",
-      "size": 4100880
+      "sha256": "27d669f5ea9a9ca2b843e95c4d0cdc9f7ed237e569000d12320d76a53b39fd1a",
+      "size": 4101488
     },
     {
       "name": "ws_pipeline.cpython-312-darwin.so",
