@@ -1,21 +1,21 @@
 {
-  "version": "studio-v34-20260817",
+  "version": "studio-v36-20260818",
   "python_abi": "cp312-darwin-arm64",
   "requires_installer": false,
-  "notes_de": "Neuer Schalter in den Einstellungen: Protokoll in die hinterlegte Word-Vorlage schreiben — oder frei formulieren lassen.",
-  "notes_en": "New switch in the settings: write the protocol into the stored Word template, or let it be written freely.",
+  "notes_de": "Behebt den Ausfall der Sprecherzuordnung: Die Satztrennung fuer das Wort-Alignment ist jetzt fest eingebaut und wird nicht mehr waehrend des Laufs aus dem Netz geladen. Ein fehlgeschlagenes Alignment wird nicht mehr sinnlos wiederholt (spart bis zu drei Minuten) und meldet sich jetzt als Fehler statt stillschweigend ein Transkript ohne Sprecher zu liefern. Ausserdem: bei Sprachwahl 'Automatisch' funktioniert das Alignment wieder, und die Statuszeile behauptet nicht mehr faelschlich einen CPU-Fallback.",
+  "notes_en": "Fixes the speaker assignment failure: the sentence splitting needed for word alignment is now built in and no longer downloaded mid-run. A failed alignment is no longer retried pointlessly (saves up to three minutes) and is now reported as an error instead of silently producing a transcript without speakers. Also: alignment works again with language set to 'Auto', and the status line no longer claims a CPU fallback that never happened.",
   "files": [
     {
       "name": "whisper_studio_gui.cpython-312-darwin.so",
       "url": "https://raw.githubusercontent.com/Yannik2000/WhisperSimpleForMac-Update-Repo/main/whisper_studio_gui.cpython-312-darwin.so",
-      "sha256": "d1a2f1bb4d1704322338e1c57562f7381f132f7cdeafc2bf29dbba7c348739cb",
-      "size": 4153040
+      "sha256": "2d3295b06d658d542542a620177558e4d8b2c2bc6dacfbf53e0ad54fe2083ff0",
+      "size": 4100880
     },
     {
       "name": "ws_pipeline.cpython-312-darwin.so",
       "url": "https://raw.githubusercontent.com/Yannik2000/WhisperSimpleForMac-Update-Repo/main/ws_pipeline.cpython-312-darwin.so",
-      "sha256": "658c31c3a496e58b422d8e728312e80abd664060d199a80daabca7b2e36a9f2b",
-      "size": 1193296
+      "sha256": "7e24be950ea53e7830eb57bf11fb3ea5697abb8f0d6324b15606f3e9568714fc",
+      "size": 1783152
     },
     {
       "name": "WhisperStudio_mac.py",
