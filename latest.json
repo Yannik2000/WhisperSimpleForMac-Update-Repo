@@ -1,21 +1,21 @@
 {
-  "version": "studio-v37-20260818",
+  "version": "studio-v39-20261008",
   "python_abi": "cp312-darwin-arm64",
   "requires_installer": false,
-  "notes_de": "Kein automatischer Downgrade mehr: Lag im Update-Verzeichnis eine AELTERE Fassung als die installierte, wurde sie bisher als Update angeboten und auch eingespielt. Die App vergleicht Versionen jetzt der Reihe nach und bietet nur echte Neuerungen an. Enthaelt ausserdem die Korrekturen aus v36 (Sprecherzuordnung, Wort-Alignment).",
-  "notes_en": "No more automatic downgrades: if the update directory held an OLDER version than the installed one, it was offered as an update and installed. The app now compares versions in order and only offers genuine upgrades. Also contains the v36 fixes (speaker assignment, word alignment).",
+  "notes_de": "Lange Sitzungen: Protokolle werden nicht mehr abgeschnitten. Bei sehr langen Aufnahmen (mehrere Stunden) war die KI-Antwort bisher auf eine zu kleine Länge begrenzt – das Protokoll mit Word-Vorlage schlug dadurch fehl, und das freie Protokoll endete unbemerkt mitten im Satz. Der Spielraum ist jetzt achtmal so groß, und eine trotzdem abgeschnittene Antwort wird als Fehler gemeldet statt als unvollständiges Protokoll gespeichert. Neu: Fertige Transkripte (TXT) lassen sich per Drag & Drop ins Fenster ziehen, auch mehrere auf einmal, und danach zu Protokollen machen. Außerdem lässt sich der Schalter für die Word-Vorlage in den Einstellungen jetzt direkt nach dem Hinterlegen der Vorlage einschalten.",
+  "notes_en": "Long meetings: protocols are no longer cut off. For very long recordings (several hours) the AI response was limited to too small a length – the Word-template protocol failed, and the free-form protocol silently ended mid-sentence. The limit is now eight times larger, and a response that is still cut off is reported as an error instead of being saved as an incomplete protocol. New: finished transcripts (TXT) can be dragged onto the window, several at once, and turned into protocols. Also, the Word-template switch in the settings can now be turned on right after the template has been chosen.",
   "files": [
     {
       "name": "whisper_studio_gui.cpython-312-darwin.so",
       "url": "https://raw.githubusercontent.com/Yannik2000/WhisperSimpleForMac-Update-Repo/main/whisper_studio_gui.cpython-312-darwin.so",
-      "sha256": "27d669f5ea9a9ca2b843e95c4d0cdc9f7ed237e569000d12320d76a53b39fd1a",
-      "size": 4101488
+      "sha256": "6aba174571ffecd748c76c0503bae903d32685961a2d0dfe2a0d7ce69ea86c0f",
+      "size": 4117696
     },
     {
       "name": "ws_pipeline.cpython-312-darwin.so",
       "url": "https://raw.githubusercontent.com/Yannik2000/WhisperSimpleForMac-Update-Repo/main/ws_pipeline.cpython-312-darwin.so",
-      "sha256": "7e24be950ea53e7830eb57bf11fb3ea5697abb8f0d6324b15606f3e9568714fc",
-      "size": 1783152
+      "sha256": "1396c3717a61dfdcb965a07faa0000924514b876aba58ed16453429a77608cb5",
+      "size": 1765168
     },
     {
       "name": "WhisperStudio_mac.py",
